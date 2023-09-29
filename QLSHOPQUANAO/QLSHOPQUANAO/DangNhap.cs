@@ -38,7 +38,7 @@ namespace QLSHOPQUANAO
             string tendn = txtTenDN.Text;
             string matkhau = txtMatKhau.Text;
             //kết nối csdl
-            string str = "Data Source=DESKTOP-PKGEMFS;Initial Catalog=SHOPQUANAO;Integrated Security=True";
+            string str = "Data Source=DESKTOP-PKGEMFS\\HIEUNE;Initial Catalog=SHOPQUANAO;Integrated Security=True";
             SqlConnection conn = new SqlConnection(str);
             conn.Open();
             //truy vấn dữ liệu
@@ -98,6 +98,16 @@ namespace QLSHOPQUANAO
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTenDN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
         {
 
         }

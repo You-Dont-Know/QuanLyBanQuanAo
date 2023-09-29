@@ -9,7 +9,7 @@ namespace QLSHOPQUANAO
 {
     class Class_HoaDon
     {
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-PKGEMFS;Initial Catalog=SHOPQUANAO;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-PKGEMFS\\HIEUNE;Initial Catalog=SHOPQUANAO;Integrated Security=True");
 
         public bool ktKhoaNgoaiCTHD(string a)
         {

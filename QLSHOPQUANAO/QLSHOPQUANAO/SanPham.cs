@@ -19,7 +19,7 @@ namespace QLSHOPQUANAO
             InitializeComponent();
         }
 
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-PKGEMFS;Initial Catalog=SHOPQUANAO;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-PKGEMFS\\HIEUNE;Initial Catalog=SHOPQUANAO;Integrated Security=True");
         SqlDataAdapter adap = new SqlDataAdapter();
         DataTable dt = new DataTable();
 
